@@ -1,0 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  width: 300px;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.box01,
+.box02 {
+  border: 1px solid #e7eeea;
+}
+
+.box01 h2,
+.box02 h2 {
+  background-color: #e7eeea;
+  color: #829886;
+  font-size: 24px;
+  text-align: center;
+  padding: 15px 100px 15px 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.box01 .list {
+  padding: 15px 15px 6px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.box01 .list span {
+  color: #829886;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.box01 .list p {
+  color: #829886;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.box01 .list2 {
+  padding: 15px 15px 6px 15px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bolder;
+}
+.box01 .list2 span {
+  color: #829886;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+.box01 .list2 p {
+  color: #829886;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+.box02 .wantToBuy {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.box02 .wantToBuy .cart {
+  width: 265px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 8px;
+}
+.box02 .wantToBuy .cart .cartDetail span {
+  color: #829886;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.box02 .wantToBuy .cart .cartDetail p {
+  color: #829886;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
