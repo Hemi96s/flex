@@ -127,3 +127,188 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.work {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav {
+  border: 1px solid #e7eeea;
+  width: 300px;
+  color: #37523d;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav ul .category {
+  background-color: #37523d;
+  color: white;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.nav ul .tag {
+  background-color: #e7eeea;
+  color: #37523d;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.nav ul li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  border: 1px solid #e7eeea;
+}
+
+.main {
+  width: 620px;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* 產品01 */
+.main .box01 {
+  width: 300px;
+  margin: 5px;
+}
+.main .box01 .productName {
+  display: flex;
+  justify-content: space-around;
+}
+.main .box01 .productName span {
+  color: #37523d;
+  text-align: center;
+  border: 1px solid #e7eeea;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 185px;
+}
+
+.main .box01 .productName p {
+  color: #37523d;
+  text-align: center;
+  border: 1px solid #e7eeea;
+  font-weight: bold;
+  width: 115px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main .box01 .btn {
+  color: #37523d;
+  text-align: center;
+  background-color: #e7eeea;
+  font-weight: bolder;
+  font-size: 22px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+/* 產品02 */
+.main .box02 {
+  width: 300px;
+  margin: 5px;
+}
+.main .box02 .productName {
+  display: flex;
+  justify-content: space-around;
+}
+.main .box02 .productName span {
+  color: #37523d;
+  text-align: center;
+  border: 1px solid #e7eeea;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 185px;
+}
+
+.main .box02 .productName p {
+  color: #37523d;
+  text-align: center;
+  border: 1px solid #e7eeea;
+  font-weight: bold;
+  width: 115px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main .box02 .btn {
+  color: #37523d;
+  text-align: center;
+  background-color: #e7eeea;
+  font-weight: bolder;
+  font-size: 22px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+.main .box01 {
+  width: 300px;
+}
+.main .box01 .productName {
+  display: flex;
+  justify-content: space-around;
+}
+.main .box01 .productName span {
+  color: #37523d;
+  text-align: center;
+  border: 1px solid #e7eeea;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 185px;
+}
+
+.main .box01 .productName p {
+  color: #37523d;
+  text-align: center;
+  border: 1px solid #e7eeea;
+  font-weight: bold;
+  width: 115px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main .box01 .btn {
+  color: #37523d;
+  text-align: center;
+  background-color: #e7eeea;
+  font-weight: bolder;
+  font-size: 22px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+/* 產品03 */
+.main .box03 {
+  width: 300px;
+  margin: 5px;
+}
+.main .box03 .productName {
+  display: flex;
+  justify-content: space-around;
+}
+.main .box03 .productName span {
+  color: #37523d;
+  text-align: center;
+  border: 1px solid #e7eeea;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 185px;
+}
+
+.main .box03 .productName p {
+  color: #37523d;
+  text-align: center;
+  border: 1px solid #e7eeea;
+  font-weight: bold;
+  width: 115px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main .box03 .btn {
+  color: #37523d;
+  text-align: center;
+  background-color: #e7eeea;
+  font-weight: bolder;
+  font-size: 22px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
