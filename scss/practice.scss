@@ -1,0 +1,28 @@
+.header {
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../asset/img/header_desktop.png);
+  background-repeat: no-repeat;
+  .banner {
+    min-height: 420px;
+  }
+  .menu-bg {
+    min-height: 58px;
+    background: #ff0000;
+    position: relative;
+  }
+  .menu {
+    top: 0;
+    ul {
+      a {
+        display: block;
+        &:hover {
+          font-weight: bolder;
+        }
+      }
+      li {
+        color: #fff;
+      }
+    }
+  }
+}
